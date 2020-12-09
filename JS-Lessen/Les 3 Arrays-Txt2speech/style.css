@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(255, 95, 95);
+    color: black;
+    font-weight: bold;
+    font-family:  Courier, monospace;
+    font-size: 250%;
+}
+
+div::first-letter {
+    font-size: 200%;
+    color: magenta;
+  }
