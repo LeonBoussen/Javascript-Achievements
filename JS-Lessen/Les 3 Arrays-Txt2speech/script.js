@@ -9,7 +9,10 @@
     })
 
     myReset.addEventListener('click', function(){
-        location.reload();
+        myImage.src ="https://i.pinimg.com/originals/16/9a/8d/169a8dfcb402415d343481e7143f932c.jpg"
+        myText.innerHTML = "......"
+        window.speechSynthesis.cancel();
+
     })
 
     function main(){
@@ -40,7 +43,6 @@
     
     function selectThisImage(){
         let keuze3 = randomizer(arrayLength);
-        myImage.scr = "https://cdn.discordapp.com/attachments/749995981273038889/783980032455475217/Capture1.PNG"
         myImage.src = plaatjes[keuze3]; 
     }
     
@@ -60,5 +62,5 @@
     const werkwoord = ["can", "is", "walks", "learns", "drinks", "is going", "has"];
     const restwoord = ["drink", "cool", "hard", "at school", "coffee", "to drive a car", "badass sum glasses"];
         
-    let plaatjes = ["", "", "", "https://d33wubrfki0l68.cloudfront.net/8976291c46c8d8d8f4e07c437ec614a6947b6a5f/e6679/assets/07-talk-to-your-cat.jpg", "https://cdn.discordapp.com/attachments/749995981273038889/783980032455475217/Capture1.PNG", "https://www.logochoc.nl/media/catalog/product/cache/1/thumbnail/600x/78423f1769557a712fc4e36a50eb9271/i/_/i_like_duim-4030_copy.jpg", "https://www.leeuwarderstudentenkrant.nl/wp-content/uploads/2013/12/zwervers.jpg", "https://indebuurt.nl/utrecht/wp-content/uploads/2020/02/79203738_3152443611432451_326641097608527872_o.jpg", "https://www.lion-art.nl/Files/6/97000/97535/ProductPhotos/MaxContent/567411834.jpg"]
+    let plaatjes = ["https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png", "https://d33wubrfki0l68.cloudfront.net/8976291c46c8d8d8f4e07c437ec614a6947b6a5f/e6679/assets/07-talk-to-your-cat.jpg", "https://cdn.discordapp.com/attachments/749995981273038889/783980032455475217/Capture1.PNG", "https://www.logochoc.nl/media/catalog/product/cache/1/thumbnail/600x/78423f1769557a712fc4e36a50eb9271/i/_/i_like_duim-4030_copy.jpg", "https://www.leeuwarderstudentenkrant.nl/wp-content/uploads/2013/12/zwervers.jpg", "https://indebuurt.nl/utrecht/wp-content/uploads/2020/02/79203738_3152443611432451_326641097608527872_o.jpg", "https://www.lion-art.nl/Files/6/97000/97535/ProductPhotos/MaxContent/567411834.jpg"]
     let arrayLength = onderwerp.length;
