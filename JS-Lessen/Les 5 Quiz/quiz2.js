@@ -3,56 +3,60 @@ const quiz2 =
     "quizID": "Math 1",
     "quizMetaData":
     {
-        "title": "Trivia  1",
+        "title": "Quizzzzz",
         "imageURI": "https://www.langedijkerdagblad.nl/image/5414_4928_1200_1200.jpg"
 
     },
     "quizContent":		
 		[
 			{
-				"question": "What is the most populair story to but pc games? ",
+				"question": "What is the biggest game store on PC?",
 				"answers": [{
-						"answer": "Steam",
-						"feedback": true
-					},
-					{
 						"answer": "Origin",
 						"feedback": false
 					},
 					{
-						"answer": "Gamestop",
-						"feedback": flase
+						"answer": "GameStop",
+						"feedback": false
 					},
 					{
-						"answer": "Battlenet",
+						"answer": "Blizzard",
 						"feedback": false
+					},
+					{
+						"answer": "Steam",
+						"feedback": true
 					}
 				]
 			},
 			{
-				"question": "What is Leon Boussen him favorite milkshake",
+				"question": "where is the media college located?",
 				"answers": [{
-						"answer": "Vanile",
-						"feedback": false
-					},
-					{
-						"answer": "Banaan",
+						"answer": "Amsterdam",
 						"feedback": true
 					},
 					{
-						"answer": "Chocolade",
+						"answer": "Beverwijk",
 						"feedback": false
+					},
+					{
+						"answer": "Nederland",
+						"feedback": true
 					}
 				]
 			},
 			{
-				"question": "Is fornite gay?",
+				"question": "is fortnite gay?",
 				"answers": [{
-						"answer": "No its a fun game that a lot of people like to play",
+						"answer": "Yes",
+						"feedback": true
+					},
+					{
+						"answer": "No",
 						"feedback": false
 					},
 					{
-						"answer": "Fortgay",
+						"answer": "Yes big gay",
 						"feedback": true
 					}
 				]
