@@ -1,9 +1,9 @@
 function rollingForStats(){
     
-    var v1 = Math.floor(Math.random() * 7) + 1;
-    var v2 = Math.floor(Math.random() * 7) + 1;
-    var v3 = Math.floor(Math.random() * 7) + 1;
-    var v4 = Math.floor(Math.random() * 7) + 1;
+    var v1 = Math.floor(Math.random() * 6) + 1;
+    var v2 = Math.floor(Math.random() * 6) + 1;
+    var v3 = Math.floor(Math.random() * 6) + 1;
+    var v4 = Math.floor(Math.random() * 6) + 1;
 
     console.log(v1);
     console.log(v2);
